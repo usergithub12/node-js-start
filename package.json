@@ -1,0 +1,22 @@
+{
+  "name": "node-start",
+  "version": "1.0.0",
+  "description": "Node JS Start",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Mantytskiy Mykola",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
